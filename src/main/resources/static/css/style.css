@@ -1,22 +1,233 @@
-html {
-    box-sizing: border-box;
-}
-
-*, *::before, *::after {
-    box-sizing: inherit;
-}
 
 body {
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: white;
-    color: black;
+    padding: 0;
+    display: block;
+
 }
 
-.jumbotron {
-    font-size: 72px;
-    color: deeppink;
+.cukrarna{
+    max-width: 1100px;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Lora', serif;
+}
+
+h1{
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #3e606b;
+}
+
+h2{
+    font-size: 36px;
+    font-family: 'Playfair Display', serif;
+    color: #3e606b;
+}
+
+h3{
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+}
+
+.hlavicka{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.uvod{
+    padding: 10px;
+}
+
+.logo{
+    width: 170px;
+    padding: 30px 0 30px 0;
+}
+
+.menu{
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: #3e606b;
+    font-size: 20px;
+}
+
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active{
+    color: white;
+    background-color: #f195b2;
+}
+
+nav {
+    background: hotpink;
+    padding: 5px;
+}
+
+nav{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+/* Hero sekce s obrázkem a hlavním nadpisem */
+
+.herosekce{
+   // background-image: url("images/cupcake.jpg" );
+    background-size: cover;
+}
+
+section {
+    padding: 20px 0;
+}
+
+.foto{
+    float: right;
+    margin: 0 0 30px 30px;
+    width: 30%;
+    max-width: 200px;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.hero{
+    color: #fff;
+    font-size: 24px;
+    font-style: italic;
+}
+
+
+
+
+/* Vítejte v naší cukrárně */
+
+.sekcecukrarna{
+    display: flex;
+    margin: 0 auto;
+}
+
+
+.levy{
+    max-width: 1100px;
+    margin: 0 auto;
+
+}
+
+.sloupecl{
+    display: flex;
+    align-items: center;
+}
+
+.sl{
+    flex-basis: 50%;
+}
+
+.sll{
+    padding-right: 30px;
+}
+
+.button{
+    margin-top: 45px;
+
+}
+
+.vyrobky {
+    text-decoration: none;
+    background-color: #f195b2;
+    color: white;
+    border-radius: 30px;
+    padding: 15px 40px;
+}
+
+
+.vyrobky a:active,
+.vyrobky a:focus,
+.vyrobky a:active{
+    background-color: #d2567d;
+}
+
+
+
+
+/* Dnešní nabídka */
+.sekceomne{
+    background-color:  #f0f0f0;
+}
+
+.blok{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.dobrota img{
+    width: 100%;
+    border-radius: 05px 5px 0 0;
+}
+
+.dobrotaa{
+    display: flex;
+}
+
+.dobrota{
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    flex-basis: 25%;
+
+}
+
+.pra{
+    margin-right: 30px;
+}
+
+.product{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+/* Náš přístup k pečení */
+
+.pristup{
+    display: flex;
+    margin-top: 80px;
+}
+
+.pristuppravy{
+    display: inline-block;
+    padding-left: 30px;
+    margin: 0 auto;
+
+}
+
+.peceni,
+.photocukrarna{
+    border-radius: 5px;
+    width: 500px;
+
+}
+
+/* Patička */
+.paticka {
+    background-color: #303339;
+    color: white;
+    text-align: center;
+    padding: 30px 0 30px;
+    margin-top: 80px;
+    margin-bottom: 0;
 }
